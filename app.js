@@ -1,7 +1,18 @@
-var numbers = [1,2,3,4,5]
+// var numbers = [45, 4, 9, 16, 25];
+// var over18 = numbers.filter(myFunction);
 
-numbers.sort(function(a, b) {
+// function myFunction(value, index, array) {
+//   return value > 18, index, array;
+// }
 
-return a - b;
-})
-console.log(numbers)
+// console.log(over18)
+
+var list = ["h", "e", "l", "l", "o"];
+var newlist = list.sort().map(function (currElement, index) {
+  console.log(index, currElement);
+  return currElement 
+});
+console.log(list)
+
+
+
